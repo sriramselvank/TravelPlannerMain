@@ -17,6 +17,9 @@
 		E271531F27A2612A000ADE63 /* travelPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271531E27A2612A000ADE63 /* travelPlannerTests.swift */; };
 		E271532927A2612A000ADE63 /* travelPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271532827A2612A000ADE63 /* travelPlannerUITests.swift */; };
 		E271532B27A2612A000ADE63 /* travelPlannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E271532A27A2612A000ADE63 /* travelPlannerUITestsLaunchTests.swift */; };
+		E2F5B8BD27A66181007AC353 /* buttonInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F5B8BC27A66181007AC353 /* buttonInspectable.swift */; };
+		E2F5B8C027A66500007AC353 /* homeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F5B8BF27A664FF007AC353 /* homeTabViewController.swift */; };
+		E2F5B8C327A666E4007AC353 /* ImageGliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F5B8C227A666E4007AC353 /* ImageGliderCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		E271532427A2612A000ADE63 /* travelPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = travelPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E271532827A2612A000ADE63 /* travelPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travelPlannerUITests.swift; sourceTree = "<group>"; };
 		E271532A27A2612A000ADE63 /* travelPlannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travelPlannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2F5B8BC27A66181007AC353 /* buttonInspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonInspectable.swift; sourceTree = "<group>"; };
+		E2F5B8BF27A664FF007AC353 /* homeTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeTabViewController.swift; sourceTree = "<group>"; };
+		E2F5B8C227A666E4007AC353 /* ImageGliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGliderCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 		E271530327A26127000ADE63 /* travelPlanner */ = {
 			isa = PBXGroup;
 			children = (
+				E2F5B8BE27A664E3007AC353 /* Home */,
+				E2F5B8BA27A6611E007AC353 /* Helper */,
 				E271530427A26127000ADE63 /* AppDelegate.swift */,
 				E271530627A26127000ADE63 /* SceneDelegate.swift */,
 				E271530827A26127000ADE63 /* ViewController.swift */,
@@ -128,6 +136,39 @@
 				E271532A27A2612A000ADE63 /* travelPlannerUITestsLaunchTests.swift */,
 			);
 			path = travelPlannerUITests;
+			sourceTree = "<group>";
+		};
+		E2F5B8BA27A6611E007AC353 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5B8BB27A6616E007AC353 /* Buttons */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E2F5B8BB27A6616E007AC353 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5B8BC27A66181007AC353 /* buttonInspectable.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		E2F5B8BE27A664E3007AC353 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5B8C127A666B1007AC353 /* view */,
+				E2F5B8BF27A664FF007AC353 /* homeTabViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E2F5B8C127A666B1007AC353 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5B8C227A666E4007AC353 /* ImageGliderCollectionViewCell.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +303,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E271530F27A26127000ADE63 /* travelPlanner.xcdatamodeld in Sources */,
+				E2F5B8C327A666E4007AC353 /* ImageGliderCollectionViewCell.swift in Sources */,
+				E2F5B8C027A66500007AC353 /* homeTabViewController.swift in Sources */,
 				E271530927A26127000ADE63 /* ViewController.swift in Sources */,
+				E2F5B8BD27A66181007AC353 /* buttonInspectable.swift in Sources */,
 				E271530527A26127000ADE63 /* AppDelegate.swift in Sources */,
 				E271530727A26127000ADE63 /* SceneDelegate.swift in Sources */,
 			);
