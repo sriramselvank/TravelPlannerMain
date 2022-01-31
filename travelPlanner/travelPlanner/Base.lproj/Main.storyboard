@@ -101,7 +101,7 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="afs-kp-lFd">
-                                <rect key="frame" x="0.0" y="725" width="414" height="83"/>
+                                <rect key="frame" x="0.0" y="759" width="414" height="49"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
                                     <tabBarItem systemItem="favorites" id="jhr-9d-Qzn"/>
@@ -170,10 +170,6 @@
                                     <segment title="Past"/>
                                 </segments>
                             </segmentedControl>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="02K-lr-fsl">
-                                <rect key="frame" x="0.0" y="353.5" width="414" height="454.5"/>
-                                <color key="backgroundColor" systemColor="systemBrownColor"/>
-                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="daU-DM-1fC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -181,11 +177,8 @@
                             <constraint firstItem="n4Y-3w-fmU" firstAttribute="centerY" secondItem="aX2-5y-cBz" secondAttribute="centerY" id="4Ux-tI-ubD"/>
                             <constraint firstItem="tA7-ay-IWI" firstAttribute="top" secondItem="n4Y-3w-fmU" secondAttribute="bottom" constant="100" id="7gI-3a-rpa"/>
                             <constraint firstItem="qbg-9L-nvU" firstAttribute="centerX" secondItem="Wmt-8O-6Op" secondAttribute="centerX" id="8gq-tT-aUs"/>
-                            <constraint firstItem="02K-lr-fsl" firstAttribute="top" secondItem="tA7-ay-IWI" secondAttribute="bottom" id="DQQ-1m-Xfk"/>
                             <constraint firstItem="daU-DM-1fC" firstAttribute="trailing" secondItem="n4Y-3w-fmU" secondAttribute="trailing" constant="20" id="Gf2-2L-ppR"/>
                             <constraint firstItem="aX2-5y-cBz" firstAttribute="leading" secondItem="daU-DM-1fC" secondAttribute="leading" constant="20" id="IMi-Hy-QMz"/>
-                            <constraint firstItem="daU-DM-1fC" firstAttribute="trailing" secondItem="02K-lr-fsl" secondAttribute="trailing" id="M01-G0-MS9"/>
-                            <constraint firstItem="daU-DM-1fC" firstAttribute="bottom" secondItem="02K-lr-fsl" secondAttribute="bottom" id="TQc-mr-jtl"/>
                             <constraint firstItem="afs-kp-lFd" firstAttribute="leading" secondItem="daU-DM-1fC" secondAttribute="leading" id="ccH-tT-FkJ"/>
                             <constraint firstItem="tA7-ay-IWI" firstAttribute="trailing" secondItem="daU-DM-1fC" secondAttribute="trailing" constant="5" id="gs5-Nr-dpI"/>
                             <constraint firstItem="aX2-5y-cBz" firstAttribute="top" secondItem="daU-DM-1fC" secondAttribute="top" constant="65" id="mGg-ul-oze"/>
@@ -193,7 +186,6 @@
                             <constraint firstItem="tA7-ay-IWI" firstAttribute="top" secondItem="qbg-9L-nvU" secondAttribute="bottom" constant="35" id="q0y-wW-JLO"/>
                             <constraint firstItem="afs-kp-lFd" firstAttribute="trailing" secondItem="daU-DM-1fC" secondAttribute="trailing" id="qJl-Ay-JpC"/>
                             <constraint firstItem="afs-kp-lFd" firstAttribute="bottom" secondItem="daU-DM-1fC" secondAttribute="bottom" id="v0O-xo-LOP"/>
-                            <constraint firstItem="02K-lr-fsl" firstAttribute="leading" secondItem="daU-DM-1fC" secondAttribute="leading" id="xwc-cO-OSK"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -208,9 +200,6 @@
         <image name="trip3" width="3000" height="2000"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBrownColor">
-            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
